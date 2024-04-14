@@ -17,7 +17,16 @@ teams may be registered and updated in real time with the team signup form. asso
     TEAM_SHEET_ID=...
     SUBMISSION_SHEET_ID=...
     ```
+
 - run a development version with `npm run dev` in the parser subdir.
+    - getting a 500 internal error?
+        - check for wifi access. 
+        - ensure that the sheets used have *viewer* privileges **for all**
+        - check that the subsheet where responses from the forms are tracked is named `Responses`.
+    - data is empty?
+        - ensure fetch endpoint is not returning an error/permissions issue in console
+        - make sure the google form is linked to the sheet id's in question
+        - make sure emails are case consistent between team and submission forms
 
 
 ## future changes: 
