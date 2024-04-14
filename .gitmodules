@@ -1,0 +1,6 @@
+[submodule "cq-ctf-parser"]
+	path = cq-ctf-parser
+	url = https://github.com/beranki/cq-ctf-parser
+[submodule "cq-ctf-problems"]
+	path = cq-ctf-problems
+	url = https://github.com/beranki/cq-ctf-problems
